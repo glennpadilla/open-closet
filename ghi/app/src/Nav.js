@@ -1,6 +1,13 @@
 import { NavLink } from 'react-router-dom';
 
 function Nav() {
+	const closeNavbar = () => {
+		const navbarToggler = document.querySelector(".navbar-toggler");
+		if (navbarToggler && navbarToggler.getAttribute("aria-expanded") === "true") {
+			navbarToggler.click();
+		}
+	};
+
 	return (
     	<nav className="navbar navbar-expand-lg navbar-light bg-info">
         	<div className="container-fluid">
