@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainPage from './MainPage';
 import Nav from './Nav';
-import HatsList from './hatsComponents/HatsList'
-import HatForm from './hatsComponents/HatForm'
-import LocationsList from './hatsComponents/LocationsList'
-import LocationForm from './hatsComponents/LocationForm'
+import HatsList from './hats/HatsList'
+import HatForm from './hats/HatForm'
+import LocationsList from './hats/LocationsList'
+import LocationForm from './hats/LocationForm'
 
 import ShoeList from './ShoeList'
 import ShoeForm from './ShoeForm'
