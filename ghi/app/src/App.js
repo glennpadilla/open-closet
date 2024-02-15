@@ -6,10 +6,10 @@ import HatForm from './hats/HatForm'
 import LocationsList from './hats/LocationsList'
 import LocationForm from './hats/LocationForm'
 
-import ShoeList from './ShoeList'
-import ShoeForm from './ShoeForm'
-import BinList from './BinList'
-import BinForm from './BinForm'
+import ShoeList from './shoes/ShoeList'
+import ShoeForm from './shoes/ShoeForm'
+import BinList from './shoes/BinList'
+import BinForm from './shoes/BinForm'
 
 function App() {
   return (
