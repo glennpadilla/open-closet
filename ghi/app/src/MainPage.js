@@ -4,11 +4,10 @@ import {Link} from 'react-router-dom'
 function MainPage() {
   return (
     <div className="px-4 py-5 my-5 text-center">
-      <h1 className="display-5 fw-bold">WARDROBIFY!</h1>
+      <h1 className="display-5 fw-bold">Open Closet!</h1>
       <div className="col-lg-6 mx-auto">
         <p className="lead mb-4">
-          Need to keep track of your shoes and hats? We have
-          the solution for you!
+          Need to keep track of your shoes and hats? Open Closet is the solution for you!
         </p>
         <Link to="/hats/" style={{width:'170px'}} className="btn btn-primary btn-lg px-4 gap-3">Hats List</Link>
         <div style={{padding: "10px"}}></div>
