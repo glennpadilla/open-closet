@@ -1,22 +1,21 @@
-# Wardrobify
+# Open Closet
 
 Team:
 
-* Andrew Yi - Hats
 * Glenn Padilla - Shoes
-
+* Andrew Yi - Hats
 
 ## Diagram
-![Diagram of Wardrobify App](wardrobify-diagram-working.png)
+![Diagram of Open Closet](wardrobify-diagram-working.png)
 
-![Wardrobify App](wardrobify_app.png)
+![Open Closet App](wardrobify_app.png)
 
 
 ## Design
-Hello! Welcome to Wardrobify, a scalable web application that allows people with large and/or many closets to organizations involved in the shoes and hats industry to organize their hats and shoes by specified locations for hats and specified bins for shoes! Please take a look through this README documentation before starting.
+Hello! Welcome to Open Closet, a scalable web application that allows people with large and/or many closets to organizations involved in the shoes and hats industry to organize their hats and shoes by specified locations for hats and specified bins for shoes! Please take a look through this README documentation before starting.
 
 Getting Started:
-    To get the application up and running, use the terminal to fork and clone the microservice-two-shot directory at https://gitlab.com/andrewjyi/microservice-two-shot.
+    To get the application up and running, use the terminal to fork and clone the open-closet directory at https://github.com/glennpadilla/open-closet.
     Once complete, please run the commands in order to create the project's volumes to point to our appropriate code directories for data to persist while developing, network for internal and external communication via polling, RESTful API, URL pathing, and database configuration, and necessary microservices environments via Docker containers:
 
     1. docker volume create two-shot-pgdata
